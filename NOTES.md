@@ -68,7 +68,7 @@ $ fnm use --install-if-missing 20
 $ node -v
 $ npm -v
 
-# GitHub
+## GitHub
 
 $ git clone git@github.com:ljanotte/vendas-online-web.git
 $ cd vendas-online-web
@@ -78,3 +78,7 @@ $ cd vendas-online-web
 $ npm create vite@latest . -- --template react-ts
 $ npm install
 $ npm run dev
+
+## Configurando Eslint e prettier
+
+npm install --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-import eslint-plugin-prettier eslint-plugin-react eslint-plugin-simple-import-sort pre-commit prettier
